@@ -72,14 +72,21 @@
 // let a = 10;
 
 // const b = 1000;
-let b = 100;
+// let b = 100;
 
-{
-  var a = 10;
-  let b = 20;
-  const c = 30;
-  console.log(a);
+// {
+//   var a = 10;
+//   let b = 20;
+//   const c = 30;
+//   console.log(a);
+//   console.log(b);
+//   console.log(c);
+// }
+// console.log(b);
+
+function a() {
+  var b = 199;
   console.log(b);
-  console.log(c);
 }
+a();
 console.log(b);
