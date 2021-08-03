@@ -1,21 +1,30 @@
 // document.getElementById("count").innerText = 5;
 // let count = 5;
 // count = count + 2;
-// console.log(count);
-let count = 0;
+// // console.log(count);
+// let countEl = document.getElementById("count-el");
+// let count = 0;
 
-function increment() {
-  count = count + 1;
-  document.getElementById("count-el").innerText = count;
-  //   console.log("button clicked ");
-}
-
+// function increment() {
+//   count = count + 1;
+//   countEl.innerText = count;
+// }
+// function save() {
+//   console.log(count);
+// }
 // count = document.getElementById("count-el").innerText;
-
 // function decrement() {
 //   count = count - 1;
 //   document.getElementById("count-el").innerText = count;
 // }
+
+let name = "Haswanth";
+
+let greeting = "Hi, my name is ";
+
+let myGreeting = greeting + name;
+
+console.log(myGreeting);
 
 // let count = 0;
 
